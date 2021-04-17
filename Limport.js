@@ -1,3 +1,6 @@
+// Limport.js by Piponsio
+// https://github.com/piponsio/Limport
+//
 // You can use Limport of two ways.
 // These ways are explained at the end of the document.
 
