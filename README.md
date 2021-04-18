@@ -25,7 +25,7 @@ For the correct implementation of Limport it is necessary to insert 2 script tag
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Change_me</title>
+	<title>Title</title>
 
 	<script type="text/javascript" src="./Limport/Limport.js"></script>
 	<script type="text/javascript" src="./Limport-list.js"></script>
@@ -38,7 +38,7 @@ For the correct implementation of Limport it is necessary to insert 2 script tag
 </html>
 ```
 
-**Example of ./Imports.js**
+**Example of ./Limport-list.js**
 ```
 Limport.add(./script/my-script.js);
 Limport.add(./script/my-script2.js);
