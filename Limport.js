@@ -1,8 +1,5 @@
 // Limport.js by Piponsio
 // https://github.com/piponsio/Limport
-//
-// You can use Limport of two ways.
-// These ways are explained at the end of the document.
 
 class Limport{
 	static _status = new Map();
@@ -27,6 +24,7 @@ class Limport{
 		    	script.defer = true;	
 		    }
 			document.querySelector("head").appendChild(script);
+			
 		    script.onreadystatechange = function(){
 		    	Limport.setStatusImport(url, true);
 		    };
@@ -61,17 +59,3 @@ class Limport{
 		}
 	}
 }
-
-
-// 1) Create a configuration file that includes all the scripts to import.
-// First import the config file here with its absolute path.
-//
-// Example:
-//Limport.add("./Limport/Config.js");
-
-
-// 2) Directly import each file in this document with its absolute path.
-//
-// Example:
-//Limport.add("./script/my-script.js");
-//Limport.add("./script/my-script2.js");
